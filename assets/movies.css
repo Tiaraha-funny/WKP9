@@ -1,0 +1,37 @@
+body {
+    background-color: silver;
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 16px;
+}
+h1 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 33px;
+    padding-inline-end: 2rem;
+}
+
+.release_date,
+.rt_rate {
+    margin-inline-end: 2rem;
+    margin-block-start: 5rem;
+}
+
+article {
+    padding: 2rem;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 80%;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
